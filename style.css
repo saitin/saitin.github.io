@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+* {
+  margin: 0 ;
+  padding: 0;
+}
+.container{
+    margin: 0 auto;
+    min-width: 1200px;
+}
+.header {
+  width: 1200px;
+  min-height: 130px;
+  margin: 0 auto;
+  background: #ccc;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.menu h1{
+    float: left;
+    margin-left: 290px;
+    margin-top: 70px
+}
+.si li {
+  list-style-type: none;
+  float: right;
+    margin-right: 20px;
+}
+.si li a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  margin: 10px;
+  margin-top: 90px;
+  color: crimson;
+    
+}
+.si li a:hover {
+  border-bottom: 1px solid black;
+  color: darkred;
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  background: #999;
+    min-height: 400px;
+}
+.content h1 {
+  text-align: center;
+    color: red;
+    padding-top: 50px;
+}
+.content h2{
+    text-align: center;
+}
+.content a img{
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+.content p {
+  font-style: italic;
+  font-weight: 700;
+  margin-left: 50px;
+    text-indent: 25px;
+    margin-top: 50px;
+    transform: scaleY(1.2005);
+    overflow: hidden;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    
+}
+.content p:first-letter {
+  color: blue;
+  font-size: 1.5em;
+}
+.komod a img{
+    border: 2px solid transparent;
+}
+.komod a img:hover{
+    border: 2px solid #BDB76B;
+}
+.komod p{
+    margin-top: 70px;
+}
+.text{
+    float: left;
+}
+.text a img{
+    border: 2px solid transparent;
+}
+.text a img:hover{
+    border: 2px solid #BDB76B;
+}
+.text p{
+    margin-top: 170px;
+}
+.tovar1{
+    float: left;
+    margin-left: 13%;
+    margin-top: 20px;
+    margin-bottom: 30px;    
+    
+}
+.tovar1 h4{
+    margin-left: 120px;
+}
+.tovar2{
+    float: left;
+    margin-left: 20%;
+    margin-top: 20px;
+    
+}
+.tovar2 h4{
+    margin-left: 120px
+}
+.tovar1 a img{
+    width: 250px;
+    height: 250px;
+    float: left;
+    border: 2px solid transparent;
+}
+.tovar1 a img:hover{
+    border: 2px solid #D2691E;
+}
+.tovar2 a img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid transparent;
+}
+.tovar2 a img:hover{
+    border: 2px solid #D2691E;
+}
+.push{
+    margin-left: 220px;
+    margin-top: 50px; 
+    float: left;
+    
+}
+
+.push a{
+    display: block;
+    background: #ffffff;
+    box-shadow: 0px 2px 4.85px 2.5px rgba(33, 33, 33, 0.45);
+    width: 150px;
+    height: 35px;
+    border-radius: 17px;
+    text-align: center;
+    line-height: 35px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.push a:hover {
+    background: #ffffff url("img/arrow.png") no-repeat  123px;
+}
+.push a:activ{
+    box-shadow: none;
+}
+.next{
+    clear: both;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.logos{
+    outline: 1px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    height: 150px;
+}
+.logos td{
+    outline: 1px solid black;
+    text-align: center;
+}
+.rondo{
+    outline: 1px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    height: 150px;
+}
+.rondo td{
+    outline: 1px solid black;
+    text-align: center;
+}
+.next h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.next p{
+    padding-bottom: 100px;
+}
+.form{
+    margin-left: 50px;
+}
+.form .anketa{
+    margin-top: 50px; 
+    font-size: 1.5em;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 120px
+}
+#c{
+    max-width: 300px;
+    min-height: 50px;
+}
+.form .anketa input{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.end{
+    float: left;
+    margin-left: 150px
+}
+.end h3{
+    margin-left: 50px;
+    margin-top: 50px
+}
+.end p{
+    font-size: 14px;
+    font-weight: 505;
+    text-indent: 0px;
+}
+.end p:first-letter{
+    color: black;
+    font-size: 1.25em
+}
+iframe{
+    clear: both;
+    width: 100%;
+    height: 374px;
+    margin-bottom: 20px;
+}
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 250px;
+    background-color: #777;
+    clear: both;
+    
+}
+.contact{
+    margin-left: 18%;
+    margin-top: 50px;
+    float: left;
+    
+}
+.contact p{
+    margin-top: 20px;
+}
+.info{
+    margin-left: 20%;
+    margin-top: 50px;
+    align-content: center;
+    float: left;
+}
+.info h3{
+    margin-left: 60px
+}
+.infoone{
+    margin-top: 20px;
+    float: left
+}
+.infoone a{
+    text-decoration: none;
+    color: black;
+}
+.infoone a:hover{
+    color: red
+}
+.infotwo{
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.infotwo a{
+    text-decoration: none;
+    color: black
+}
+.infotwo a:hover{
+    color: red
+}
+.copy{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.soch .fa {
+	background-color: #6c6c6c;
+    width: 15px;
+    height: 15px;
+	border-radius: 50%;
+    display: inline-block;
+	color: #fff;
+	padding: 10px;
+}
+.soch{
+    float: left;
+    margin-top: 45px;
+    margin-left: 258px
+}
